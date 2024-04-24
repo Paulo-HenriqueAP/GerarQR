@@ -1,0 +1,33 @@
+@media (max-height:420px) {
+
+  #userQRvalue {
+    top: 14%;
+  }
+
+  #tuto1 {
+    font-size: small;
+  }
+
+  .container {
+    display: inline-flex;
+    align-items: center;
+    background-color: aqua;
+    height: 0%;
+    bottom: 0%;
+  }
+
+  #generateQR {
+    width: 200px;
+    height: 70px;
+  }
+
+  #downloadQR {
+    width: 200px;
+    height: 70px;
+  }
+
+  #qr {
+    width: 200px;
+    height: 200px;
+  }
+}

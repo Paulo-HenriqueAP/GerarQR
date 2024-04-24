@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERAR QR CODES</title>
+
+    <link rel="shortcut icon" href="scr/inicio/ico.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scr/css/estilos.css">
+    <link rel="stylesheet" href="./scr/css/responsivo.css">
+</head>
+
+<body>
+    <ul class="container">
+        <li> <button id="generateQR" onmousedown="qr_personalizado()">GERAR QR</button></li>
+        <li> <img id="qr" src="scr/inicio/inicio1.png" style="color: white;" alt="Escreva algo"></img></li>
+        <li> <button id="downloadQR" onmousedown="baixarQR_CODE()">BAIXAR QR</button></li>
+    </ul>
+
+    <span id="tuto1">↶ Escreva algo ↷</span>
+    <input id="userQRvalue" type="text" onchange="qr_personalizado()" placeholder="aqui"
+        style="font-family: monospace;">
+    <script src="./scr/js/index.js"></script>
+</body>
+
+</html>
